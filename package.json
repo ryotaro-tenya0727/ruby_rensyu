@@ -1,0 +1,13 @@
+{
+    "name": "ruby_rensyu",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@prettier/plugin-ruby": "^1.6.1",
+        "prettier": "^2.3.2"
+    },
+    "scripts": {
+        "format": "find . -name *.rb | xargs node_modules/.bin/prettier --write"
+    }
+}
