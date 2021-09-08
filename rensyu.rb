@@ -1,4 +1,4 @@
-puts ['Fizz'][3 % 3]
+puts ['Fizz'][6 % 3]
 
 puts ['Fizz'][2]
 

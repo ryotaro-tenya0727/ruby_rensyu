@@ -1,10 +1,11 @@
 require 'minitest/autorun'
-require './lib/gate.rb'
+require './lib/gate'
 require './lib/ticket'
 
 class GateTest < Minitest::Test
   def setup
     @umeda = Gate.new(:umeda)
+
     @juso = Gate.new(:juso)
     @mikuni = Gate.new(:mikuni)
   end
