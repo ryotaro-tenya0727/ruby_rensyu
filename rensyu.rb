@@ -2,7 +2,7 @@ puts ['Fizz'][6 % 3]
 
 puts ['Fizz'][2]
 
-puts '数字くれ'
+puts '数字くれaa'
 
 number = gets.to_i
 
