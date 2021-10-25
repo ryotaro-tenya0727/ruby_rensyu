@@ -7,7 +7,7 @@ puts '数字くれaaaaaa'
 number = gets.to_i
 
 number.times do
-  a = 'hello world11'
+  a = 'issueの実験'
   a.freeze
 
   puts a
